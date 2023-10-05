@@ -7,7 +7,7 @@ export default async function Home() {
 
   return (
     <main>
-      <h1 className='text-center text-2xl font-bold my-10'>API Collection</h1>
+      <h1 className='my-10 text-center text-2xl font-bold'>API Collection</h1>
       <div className='flex justify-center gap-20'>
         <ApiList apiList={allApiContent} />
       </div>
